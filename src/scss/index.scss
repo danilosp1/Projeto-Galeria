@@ -1,0 +1,8 @@
+// referencia a partir de node modules
+@import "~bootstrap/scss/bootstrap";
+
+// sobrescrevendo o path de fontes
+$fa-font-path: "~font-awesome/fonts";
+@import "~font-awesome/scss/font-awesome";
+
+@import "custom";
